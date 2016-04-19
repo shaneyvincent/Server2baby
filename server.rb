@@ -1,7 +1,7 @@
 require 'sinatra'
 get '/' do
   # "Hello World"
-  File.read(File.join('public', 'hello.txt'))
+  File.read(File.join('public', 'stockticker.rb'))
 end
 
 get '/sinatra' do
